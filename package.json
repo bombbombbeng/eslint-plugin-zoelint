@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-zoelint",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "a eslint plugin test",
   "keywords": [
     "eslint",
@@ -11,6 +11,10 @@
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha tests --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bombbombbeng/eslint-plugin-zoelint.git"
   },
   "dependencies": {
     "requireindex": "~1.1.0"
